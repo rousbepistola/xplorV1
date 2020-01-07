@@ -16,8 +16,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
-        videoView = (VideoView)findViewById(R.id.videoView);
+
+        videoView = findViewById(R.id.videoView);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.splash);
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
