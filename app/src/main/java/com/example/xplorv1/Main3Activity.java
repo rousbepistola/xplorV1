@@ -73,4 +73,9 @@ public class Main3Activity extends AppCompatActivity {
         Intent ni = new Intent(this, xplrsix.class);
         startActivity(ni);
     }
+
+    public void roux(View view){
+        Intent ni = new Intent(this, roux.class);
+        startActivity(ni);
+    }
 }
