@@ -78,4 +78,15 @@ public class Main3Activity extends AppCompatActivity {
         Intent ni = new Intent(this, roux.class);
         startActivity(ni);
     }
+
+
+    //share buttons
+    public void shareone(View view){
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my link to my app package. (Insert android package here>>>>>>•<<<<<<)");
+        sendIntent.putExtra(Intent.EXTRA_SUBJECT, "A subject to arouse curiosity");
+        sendIntent.setType("text/plain");
+        startActivity(sendIntent);
+    }
 }
