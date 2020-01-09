@@ -4,4 +4,131 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".xplrone"/>
+    tools:context=".xplrone">
+
+    <LinearLayout
+        android:id="@+id/doors"
+        android:layout_width="377dp"
+        android:layout_height="353dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="360dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DOORS"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          It isn't every day that you have the time to take a leisurely stroll around the neighborhood: a stroll without purpose or destination, a chance to stretch the legs, let the mind wander, and get reacquainted with some old familiar sights. On your way, perhaps you'd stop in at a cozy coffee shop, explore the paths of a favorite park, or take the opportunity to do some window-shopping. Then there are those days when it's enough just to let your feet decide your course...." />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:text="          Picture yourself on a stroll through town. The day is beautiful and you're half-lost in a daydream. You turn onto a street that you've never been down before, and as you walk you pass a beautiful house set somewhat back from the street. Pausing a moment to admire this lovely home, you notice the door is half-open. Why is the door ajar?"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doorskeys"
+        android:layout_width="378dp"
+        android:layout_height="502dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:text="Doors have a twofold significance: they may be passageways, but they can be barriers as well. In particular, the front door of a house represents its first line of defense, all that stands between its inhabitants and the uncertainties of the world outside. By imagining as open a door that should normally be closed, you envision a scenario of vulnerability and exposure. On a subconscious level, the reason you imagined for the door being open is linked to the ways that you leave yourself open and expose your own weaknesses to others."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. The house is being burglarized.  You instantly assume the worst in any situation, and this trait is nowhere more evident than when things actually do go wrong. You never get flustered in a crisis, but only because you're much too busy panicking. So the next time disaster strikes, it's important to keep a clear head and remember to take a few deep breaths first and count to ten. Then you can faint."
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:text="2. The owner forgot to close it.  You aren't the type to get carried away in crisis situations. On the contrary, you're so relaxed that you may not notice a crisis is occurring at all. The mistakes you make are caused more by oversight than bad intentions, but the end results for you (and the people around you) are the same."
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:text=". The owner is inside, sweeping out the entranceway.  You may appear to be a laid-back sort, but you never let your guard down. Achieving that constant state of relaxed alertness is what has made you into the mature individual you are. Of course, you still have your human weaknesses; you just don't put them on display for all the world to see."
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="1. The house is being burglarized.  "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="2. The owner forgot to close it.  "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. The owner is inside, sweeping out the entranceway."
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="keys"
+            android:text="results" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

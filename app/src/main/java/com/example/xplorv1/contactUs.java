@@ -28,9 +28,9 @@ public class contactUs extends AppCompatActivity {
 
 
     public void submit(View v){
-        String name = String.valueOf(fname);
-        String title = String.valueOf(subject);
-        String messages = String.valueOf(message);
+        String name = fname.getText().toString();
+        String title = subject.getText().toString();
+        String messages = message.getText().toString();
 
         Intent msg = new Intent(Intent.ACTION_SEND);
         msg.setType("message/rfc822");
