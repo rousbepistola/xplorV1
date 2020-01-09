@@ -47,59 +47,79 @@
 
     <LinearLayout
         android:id="@+id/doorskeys"
-        android:layout_width="378dp"
-        android:layout_height="502dp"
+        android:layout_width="359dp"
+        android:layout_height="428dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
+        android:gravity="center"
         android:orientation="vertical"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="match_parent"
-            android:layout_height="179dp"
+            android:layout_width="342dp"
+            android:layout_height="394dp"
             android:text="Doors have a twofold significance: they may be passageways, but they can be barriers as well. In particular, the front door of a house represents its first line of defense, all that stands between its inhabitants and the uncertainties of the world outside. By imagining as open a door that should normally be closed, you envision a scenario of vulnerability and exposure. On a subconscious level, the reason you imagined for the door being open is linked to the ways that you leave yourself open and expose your own weaknesses to others."
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="1. The house is being burglarized.  You instantly assume the worst in any situation, and this trait is nowhere more evident than when things actually do go wrong. You never get flustered in a crisis, but only because you're much too busy panicking. So the next time disaster strikes, it's important to keep a clear head and remember to take a few deep breaths first and count to ten. Then you can faint."
-            android:textSize="13dp" />
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="match_parent"
-            android:layout_height="106dp"
-            android:text="2. The owner forgot to close it.  You aren't the type to get carried away in crisis situations. On the contrary, you're so relaxed that you may not notice a crisis is occurring at all. The mistakes you make are caused more by oversight than bad intentions, but the end results for you (and the people around you) are the same."
-            android:textSize="13dp" />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="match_parent"
-            android:layout_height="105dp"
-            android:text=". The owner is inside, sweeping out the entranceway.  You may appear to be a laid-back sort, but you never let your guard down. Achieving that constant state of relaxed alertness is what has made you into the mature individual you are. Of course, you still have your human weaknesses; you just don't put them on display for all the world to see."
-            android:textSize="13dp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="413dp"
-        android:layout_height="217dp"
+        android:id="@+id/answer1"
+        android:layout_width="361dp"
+        android:layout_height="483dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:text="1. The house is being burglarized.  You instantly assume the worst in any situation, and this trait is nowhere more evident than when things actually do go wrong. You never get flustered in a crisis, but only because you're much too busy panicking. So the next time disaster strikes, it's important to keep a clear head and remember to take a few deep breaths first and count to ten. Then you can faint."
+            android:textColor="#B71C1C"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:text="2. The owner forgot to close it.  You aren't the type to get carried away in crisis situations. On the contrary, you're so relaxed that you may not notice a crisis is occurring at all. The mistakes you make are caused more by oversight than bad intentions, but the end results for you (and the people around you) are the same."
+            android:textColor="#1B5E20"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:text="3. The owner is inside, sweeping out the entranceway.  You may appear to be a laid-back sort, but you never let your guard down. Achieving that constant state of relaxed alertness is what has made you into the mature individual you are. Of course, you still have your human weaknesses; you just don't put them on display for all the world to see."
+            android:textColor="#01579B"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="172dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="6dp"
         android:layout_marginRight="6dp"
-        android:layout_marginBottom="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -124,11 +144,16 @@
             android:text="3. The owner is inside, sweeping out the entranceway."
             android:textSize="24sp" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="keys"
-            android:text="results" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:onClick="keys"
+        android:text="results"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

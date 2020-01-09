@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ProgressBar;
 
 //add:
 //how to play
@@ -14,12 +15,42 @@ import android.view.View;
 //make roux studios show a web view of my web site
 
 
+
+
+//features
+//•splash screen
+//•if statements
+//•scrollview
+//•imageview
+//•button
+//•imageButton
+//•call
+//other layout, linear layout
+//•email
+//•videoview
+//•radiobutton
+//•hiding and showing elements
+//•webview
+//•textview
+//•new page intent
+//•on click to go to app store
+//•rating bar
+//•redirecting to app store
+//•progressbar<<<<<<<<<<<<<<<<<<<<
+//•font color?
+//icon logo<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
 public class Main3Activity extends AppCompatActivity {
+    ProgressBar progressBar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        progressBar = findViewById(R.id.progressBar3);
 
         getSupportActionBar().hide();
     }
@@ -81,7 +112,9 @@ public class Main3Activity extends AppCompatActivity {
 
 
     //share buttons
+
     public void shareone(View view){
+
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
         sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my link to my app package. (Insert android package here>>>>>>•<<<<<<)");
