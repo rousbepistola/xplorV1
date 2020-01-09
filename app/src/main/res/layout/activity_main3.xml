@@ -179,7 +179,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Wroking Title #01"
+                android:text="DOORS"
                 android:textSize="18sp" />
 
             <ImageButton
