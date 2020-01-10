@@ -18,9 +18,11 @@ import android.widget.ProgressBar;
 
 
 
-//features
+//features included in the app
+//•landscape version
 //•splash screen
 //•if statements
+//•case statement
 //•scrollview
 //•imageview
 //•button
@@ -33,13 +35,13 @@ import android.widget.ProgressBar;
 //•hiding and showing elements
 //•webview
 //•textview
+//•editText
 //•new page intent
 //•on click to go to app store
 //•rating bar
 //•redirecting to app store
-//•progressbar<<<<<<<<<<<<<<<<<<<<
 //•font color?
-//icon logo<<<<<<<<<<<<<<<<<<<<<<<<
+//icon logo
 
 
 
