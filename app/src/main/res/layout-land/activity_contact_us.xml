@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactUs">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="244dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/xplrlogo" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="246dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="Contact us for fast, friendly customer service and technical support."
+        android:textSize="18sp"
+        app:fontFamily="@font/aldrich"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="379dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="FullName"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="email address"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Title"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Message"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:onClick="submit"
+            app:srcCompat="@drawable/submit" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:onClick="call"
+            app:srcCompat="@drawable/contactus" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Call Us"
+            android:textSize="18sp"
+            app:fontFamily="@font/aldrich" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
