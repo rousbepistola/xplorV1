@@ -6,4 +6,124 @@
     android:layout_height="match_parent"
     tools:context=".xplrthree">
 
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="A Glazed Expression"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="Arts and crafts class is almost a rite of passage in our society, a grueling test of the human spirit in which young initiates strive to force rubber cement, pipe cleaners, modeling clay, and papier-maché to bend to their will. And few of us can claim to have managed to avoid the experience of creating an object -- be it ceramic mask, napkin holder, or the obligatory ashtray -- only to be confronted by an empty expanse demanding that you do something, anything, to decorate it."
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="A plain white coffee mug of your own design sits ready for the kiln and is staring at you in blank anticipation. You have chosen to use blue glaze; now, if only you could decide on the pattern....  Which of the following patterns do you paint in blue on the mug?"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="1. Stripes.  2. Polka dots.  3. Checks.  4. Wavy lines."
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="Blue is the color most deeply associated with the inner workings of the mind, from imagination to intuition to intellect. The white surface of your coffee mug provides a blank slate and gives your mind free rein to express itself in the most comfortable, natural way. In this sense, the pattern you selected reflects the structure and strengths of your mind in its approach to creativity and problem solving."
+            android:textColor="#0A0A0A"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="614dp"
+            android:gravity="center"
+            android:text="1. Stripes.  You favor a direct and clear-cut approach, making you a keen decision maker able to resolve problems and put plans into action instantly. It's only natural that people perceive you as a leader and pillar of strength in difficult times."
+            android:textColor="#33691E"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="2. Polka dots.  Your strength lies in the adaptive, artistic nature of your mind. This may make you appear to be a little offbeat, perhaps even eccentric to some, but you make a real contribution to the world as a creator with a unique vision."
+            android:textColor="#0D47A1"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="3. Checks.  You excel at mastering the demands of the everyday, but in no way does that make you average or ordinary. Few people are able to organize their lives with such quiet efficiency. And the result of your efforts is that you always seem to have the time, wealth, and compassion to share with those in need."
+            android:textColor="#BF360C"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:gravity="center"
+            android:text="4. Wavy lines.  Your gift is in generating an atmosphere in which it's easy and comfortable to feel and express love. It's not that you crave attention or affection, but people just naturally feel good about taking care of and supporting you. And all that goodwill has a ripple effect, touching the lives of those around you in subtle ways. Ask the people who know and love you -- the world is a better place for your being in it."
+            android:textColor="#004D40"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="next"
+            android:text="Next" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

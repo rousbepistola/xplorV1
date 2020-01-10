@@ -6,4 +6,125 @@
     android:layout_height="match_parent"
     tools:context=".xplrfour">
 
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Wave After Wave"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="Perhaps it's because we instinctively trace the roots of life back to the oceans, perhaps it's something hardwired deep within our brains; whatever the reason may be, the sea holds a special power over us. The tang of the salt air, the fine spray of the surf, the soft crashing of the waves -- the net effect is to stimulate and soothe. Sometimes a stroll along a sandy beach can transport you much further from your everyday reality than the actual distance you walk. That may be why the sea holds a special place in lovers' hearts. It provides them with the chance to journey together, if only for a brief time, into another world."
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="(REMEMBER YOUR ANSWERS)    1. You are walking along a quiet beach. As you wander the dunes, you spot a surfboard washed up on the sand. Describe the surfboard and the impression it makes on you.  2. You climb onto the board and paddle out to try your luck on the waves. How are the conditions for surfing today?"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="3. You have managed to get to your feet and are experiencing the thrill of actually riding the wave, when suddenly you wipe out and tumble headfirst into the water. What do you think, feel, or try to scream as you struggle to find your way back to the surface?  4. You finally emerge from the water unscathed, and looking back toward the beach, you see that a person you know has been watching you. Who is that person?"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="Most of us sense intuitively the strong psychological associations between the sea and sex. The way you imagined your experience on the waves tells us something about your expectations and desires in the sexual realm. "
+            android:textColor="#B71C1C"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="614dp"
+            android:gravity="center"
+            android:text=' 1. Throughout history and across cultures, the sea is portrayed as feminine. Against that backdrop, the surfboard provides an overt example of what Freud referred to as a "phallic symbol." Women: Your description of the surfboard corresponds with your image and impression of masculine sexual characteristics. Men: Your answer shows your perception of your own physical sexuality.'
+            android:textColor="#33691E"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="2. The surfing conditions you described reveal your own hopes and expectations from sex.  &quot;The water is warm and inviting. Wave after wave breaks softly on the beach.&quot; That's enough to put anyone in the mood.  &quot;The water's a little chilly, and there's not a wave in sight.&quot; Don't worry, there will be other days, other chances. Maybe today you can just snuggle up in a beach blanket."
+            android:textColor="#0D47A1"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text='3. Total submersion within the churning waters is a metaphor for the peak of sexual pleasure. Your thoughts and feelings as you struggled upward correspond to those you experience in the throes of ecstasy.  "Oh, damn -- I almost made it that time! I was so close!" I take it you were expecting something more from the experience?'
+            android:textColor="#BF360C"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:gravity="center"
+            android:text="4. The person you pictured standing on the beach is someone you show intense interest in, in a sexual sense. This doesn't necessarily indicate active sexual desire; it may be that you're simply curious about what that person is like in the most intimate and unguarded of moments. Then again maybe, just maybe, that's something you want to find out firsthand.  Was the person you named your current lover or a secret love interest? That shouldn't be too hard to accept. But then there are always those who name a member of the same sex, a cousin, their dentist....Don't worry, your secrets are safe with us."
+            android:textColor="#004D40"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="next"
+            android:text="Next" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

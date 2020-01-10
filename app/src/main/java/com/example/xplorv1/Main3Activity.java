@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 
 //add:
@@ -44,6 +45,7 @@ import android.widget.ProgressBar;
 
 public class Main3Activity extends AppCompatActivity {
     ProgressBar progressBar;
+    Button button;
 
 
     @Override
@@ -51,6 +53,7 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         progressBar = findViewById(R.id.progressBar3);
+        button = findViewById(R.id.download);
 
         getSupportActionBar().hide();
     }
@@ -114,6 +117,12 @@ public class Main3Activity extends AppCompatActivity {
     //share buttons
 
     public void shareone(View view){
+        progressBar.setProgress(progressBar.getProgress() + 1);
+
+        if(progressBar.getProgress() == 6){
+            progressBar.setVisibility(View.INVISIBLE);
+            button.setVisibility(View.VISIBLE);
+        }
 
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);

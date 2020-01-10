@@ -6,4 +6,123 @@
     android:layout_height="match_parent"
     tools:context=".xplrtwo">
 
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Postmarked: The Future"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="Lounging around the house one Saturday afternoon, you are startled out of your reverie by the doorbell. When you open the door, you're greeted by a most unusual surprise -- a pair of animal messengers has come to deliver news of your life in the future! But when you open their messages, you see they contain very different predictions of what lies in store for you. One of the animals has brought a letter foretelling a life of happiness and contentment; the other prophesies only disaster and despair."
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="Which of the animals below brought glad tidings and which an omen of doom? (Pick a different animal for each.)  1. Tiger.  2. Dog.  3. Sheep.  4. Parrot.  5. Tortoise."
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="For most people, the future is greatly influenced by their selection of a mate or life partner. The animal messengers in this scenario actually correspond to your own perceptions of the kinds of people likely to bring you joy and grief. Animals are rich and complex in psychological significance, with a range of positive and negative attributes and associations. In this scenario, the animal you chose as the bearer of the message of happiness represents the type of person you perceive as an ideal spouse, while the doomsayer animal is the type you fear would drag you down into the depths."
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="1. Tiger.  glad tidings: You see yourself happiest with an ambitious and powerful mate, possessed of an indomitable will to rule.  gloom and doom: You dread the prospect of a vain, tyrannical partner who struts around like a lord of the jungle and growls at any mention of sharing the housework.  "
+            android:textColor="#B71C1C"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="614dp"
+            android:gravity="center"
+            android:text="2. Dog.  glad tidings: Unquestioning loyalty and absolute devotion are the things you seek most in your mate.  gloom and doom: You are utterly incompatible with those who try to please everyone and fret over what others might be thinking."
+            android:textColor="#33691E"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="3. Sheep.  glad tidings: You see the key to contentment in a warmhearted, nurturing spouse.  gloom and doom: You fear winding up stuck with a boring homebody content to spend each day grazing the same old patch of grass."
+            android:textColor="#0D47A1"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="4. Parrot.  glad tidings: Nothing would suit you better than a talkative, fun-loving partner who knows how to make you laugh.  gloom and doom: No one could suit you worse than a chattering layabout with a severe allergy to work."
+            android:textColor="#BF360C"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:gravity="center"
+            android:text="5. Tortoise.  glad tidings: Your match made in heaven is serious, dependable, and sure to be there in your hour of need.  gloom and doom: The prospect of a lifetime spent with a frustratingly slow-moving, slow-witted partner is your worst nightmare."
+            android:textColor="#004D40"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="next"
+            android:text="Next" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

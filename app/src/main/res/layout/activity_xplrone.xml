@@ -112,6 +112,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/choice"
         android:layout_width="362dp"
         android:layout_height="172dp"
         android:layout_marginStart="8dp"

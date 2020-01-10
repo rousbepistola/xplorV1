@@ -6,4 +6,125 @@
     android:layout_height="match_parent"
     tools:context=".xplrfive">
 
+
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Building a new tomorrow"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="The clock struck twelve, the ball dropped in Times Square, and the sound of champagne corks popping was heard around the globe. And after all the buildup, hoopla, and hype, after the apocalyptic anxieties and eager anticipation, the world somehow managed to find its way safely into the new millennium. Looking back, we can see that the prophecies of doom were overblown and the Y2K bug seems like little more than a ploy to sell system upgrades. "
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="But we, the last children of the twentieth century, all shared for a moment that sense of newness and opportunity -- the chance to make a world better than the one we inherited and create a legacy to share with our children and theirs over the next thousand years."
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:gravity="center"
+            android:text="(REMEMBER YOUR ANSWERS)     1. You are working for an urban planning corporation and have been assigned to the community development team for a major new millennium project. You have been asked to come up with an inspirational theme for the city. What theme do you propose?"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="2. The project team has a number of members, each with a certain set of experiences and skills. Why do you think you were selected to participate in this project? (Give as many reasons as you like.)  3. What kind of person is the project manager? Describe his or her personality and qualities as a leader."
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="614dp"
+            android:gravity="center"
+            android:text="Towns and cities are natural symbols of social life. Most of the cities we are familiar with sprang up unplanned and spread outward and upward in a seemingly random fashion. But this scenario asks you to deliberately plan a city for the future, giving your mind the chance to express its vision of an ideal setting for human interaction. Your answers reveal your approach and feelings about the social world around you."
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:gravity="center"
+            android:text="1. The theme you selected for the new city is something you feel is absolutely essential to your own happiness as a member of society. And for most people, that means the very thing they sense is most sorely lacking in their environment at present.  Was your theme something ideal, like &quot;harmony,&quot; &quot;peace,&quot; or &quot;Mother Nature&quot;? We all feel the need for more of those these days. Or did you pick something along the lines of a cartoon fantasy world where everyone smiles all the time and the sun is always shining? That may actually be an easier goal to achieve, but you're facing some strong competition in Orlando, Anaheim, and Tokyo."
+            android:textColor="#0D47A1"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:gravity="center"
+            android:text="2. The reasons you gave for being picked for the team are strengths you see in yourself that no one else recognizes. That may be because those &quot;strengths&quot; are not quite as strong as you might like to think. The people around you are the most objective judges of your potential. Don't be afraid to listen to what others have to say about your abilities -- their evaluations can steer you away from the dead-end streets of overconfidence and self-deception."
+            android:textColor="#BF360C"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:gravity="center"
+            android:text="3. The team manager reveals your own image of yourself in the future. Do you see yourself developing into a supportive, motivated, and inspirational leader, or a harsh and unreasonable slave driver? If it's the latter, you may want to start reconsidering the particular path to personal development you're currently heading down. Even Scrooge got the chance to repent."
+            android:textColor="#004D40"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="next"
+            android:text="Next" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
